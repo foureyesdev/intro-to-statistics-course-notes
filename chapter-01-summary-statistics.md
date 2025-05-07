@@ -11,8 +11,6 @@ You'll also develop critical thinking skills to interpret these measures and cho
 
 ## 📚 Table of Contents
 
-## 📚 Table of Contents
-
 1. [🔍 What is Statistics?](#🔍-what-is-statistics)
 2. [📈 Why Statistics Matter](#📈-why-statistics-matter)
 3. [⚠️ Limitations of Statistics](#⚠️-limitations-of-statistics)
