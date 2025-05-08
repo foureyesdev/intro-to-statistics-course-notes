@@ -1,140 +1,104 @@
-<!--
-Author: Lorena
-Course: DataCamp - Introduction to Statistics
-Chapter: 1 - Summary Statistics
--->
-
-# 📊 Summary Statistics – Chapter 1 Notes
-
-In this chapter, you'll learn how to describe your data using summary statistics such as **mean**, **median**, and **standard deviation**.  
-You'll also develop critical thinking skills to interpret these measures and choose the most appropriate ones for your dataset.
-
-## 📚 Table of Contents
-
-1. [🔍 What is Statistics?](#🔍-what-is-statistics)
-2. [📈 Why Statistics Matter](#📈-why-statistics-matter)
-3. [⚠️ Limitations of Statistics](#⚠️-limitations-of-statistics)
-4. [🔢 Types of Data](#🔢-types-of-data)
-5. [📊 Data Visualization](#📊-data-visualization)
-6. [📍 Measures of Center](#📍-measures-of-center)
-    - [🧠 When to Use the Mean](#🧠-when-to-use-the-mean)
-    - [🤔 When to Use the Median](#🤔-when-to-use-the-median)
-    - [😎 When to Use the Mode](#😎-when-to-use-the-mode)
-    - [🧪 TL;DR Quick Guide](#🧪-tldr-quick-guide)
-7. [🌊 Measures of Spread](#🌊-measures-of-spread)
-8. [📦 Box Plots](#📦-box-plots)
+# 📊 Statistics 101: A Practical Overview
 
 ## 🔍 What is Statistics?
 
-**Statistics** is the science of:
-- Collecting
-- Analyzing
-- Interpreting
-- Presenting data
+**Statistics** is the science of collecting, analyzing, interpreting, and presenting data.  
+It helps us make sense of the world through numbers.
 
-Two main branches:
-- **Descriptive statistics**: Describe and summarize data (e.g., average crime rate).
-- **Inferential statistics**: Draw conclusions about a population based on a sample.
+### Two Main Branches:
+- **Descriptive Statistics** – Summarize or describe features of a dataset.
+- **Inferential Statistics** – Make predictions or inferences about a population based on a sample.
+
 
 ## 📈 Why Statistics Matter
 
-Statistics is everywhere—sports, medicine, marketing, government, and science.  
-It helps answer real-world questions like:
-- What’s the average salary in a region?
-- Do ads actually boost sales?
-- Is this new vaccine effective?
+Stats are everywhere—sports, finance, healthcare, government, science.  
+They answer real-world questions like:
+- What’s the average salary?
+- Do ads affect purchases?
+- Is a new vaccine effective?
+
 
 ## ⚠️ Limitations of Statistics
 
-- Only addresses **measurable**, **well-defined** questions.
-- Doesn’t tell you **why** something happens—just **what** and **how often**.
+- Only answers **measurable, well-defined** questions.
+- Tells you **what** is happening and **how often**, not **why** it’s happening.
+
+
 
 ## 🔢 Types of Data
 
-### **Numerical Data**
-- **Continuous**: Can take any value in a range (e.g., temperature, stock prices).
-- **Count**: Whole numbers only (e.g., cups of coffee per day).
+### **Numeric Data**
+- **Continuous**: Infinite values within a range (e.g., stock prices).
+- **Interval/Count**: Whole numbers (e.g., cups of coffee per day).
 
 ### **Categorical Data**
-- **Nominal**: No natural order (e.g., eye color, country).
-- **Ordinal**: Ordered categories (e.g., survey ratings: satisfied, neutral, dissatisfied).
+- **Nominal**: No natural order (e.g., eye color, brands).
+- **Ordinal**: Ordered categories (e.g., satisfaction ratings).
+
+---
 
 ## 📊 Data Visualization
 
-Use graphs to explore and communicate:
+Visuals help explore and communicate insights. Pick the right chart for your data type:
 
-- **Bar charts**: Compare categories or groups. Ideal for visualizing counts or proportions.  
-    📌 *Example*: Number of students in each grade level.
+| Chart Type | Purpose                                    | Data Type   | Best For                                           | Example                          |
+|------------|--------------------------------------------|-------------|----------------------------------------------------|----------------------------------|
+| Bar Chart  | Compare values across **categories**       | Categorical | Highlighting highs/lows, discrete comparisons      | Sales by product type            |
+| Histogram  | Show the **distribution** of data          | Continuous  | Detecting skew, peaks, and spread                  | Age distribution in a population |
+| Box Plot   | Show spread & **identify outliers**        | Continuous  | Comparing distributions across groups              | Salary ranges by department      |
 
-- **Histograms**: Show the distribution of numerical data. Useful for identifying patterns like skewness or modality.  
-    📌 *Example*: Distribution of test scores in a class.
-
-- **Box plots**: Summarize data using medians, quartiles, and potential outliers. Great for comparing multiple datasets.  
-    📌 *Example*: Comparing salaries across different industries.
-
-![Graphs Overview](assets/graphs.png)
+---
 
 ## 📍 Measures of Center
 
-These show the "typical" value in a dataset:
-- **Mean**: Arithmetic average.
-- **Median**: Middle value when sorted.
-- **Mode**: Most frequently occurring value.
+These help find the “typical” value in your dataset:
 
-### 🧠 When to Use the Mean
+- **Mean** – Arithmetic average
+- **Median** – Middle value
+- **Mode** – Most frequent value
 
-Use the **mean** when:
-- Data is **symmetrical** (bell-shaped or normal).
-- You **care about every value** (like total budget or average grade).
-- There are **no major outliers**.
+### 🧠 Use the **Mean** when:
+- Data is **symmetric** (bell-shaped).
+- You care about **all values** equally.
+- There are **no extreme outliers**.
 
-📌 *Example*: Test scores in a class where everyone performed similarly.
+📌 _Example_: Average test score in a balanced classroom.
 
-### 🤔 When to Use the Median
+### 🤔 Use the **Median** when:
+- Data is **skewed** (e.g., income, housing prices).
+- You want a **typical** value that’s not affected by outliers.
 
-Use the **median** when:
-- Data is **skewed** (lopsided or has outliers).
-- You want a "typical" value not distorted by extremes.
-- You're working with **income, home prices, or crime stats**.
+📌 _Example_: Median income in a city with billionaires and broke students.
 
-📌 *Example*: Median income in a city with both billionaires and broke college students.
+### 😎 Use the **Mode** when:
+- Data is **categorical** or **discrete**.
+- You're looking for the **most common** value.
+- You have **bimodal/multimodal** data.
 
-### 😎 When to Use the Mode
+📌 _Example_: Most popular ice cream flavor.
 
-Use the **mode** when:
-- Data is **categorical** (e.g., colors, brands, types).
-- You want the **most common** value.
-- Data has multiple peaks (**bimodal or multimodal** distributions).
 
-📌 *Example*: Most popular pizza topping in a survey.
 
-### 🧪 TL;DR Quick Guide
+### 🧪 Quick Test:
 
-| Scenario                      | Best Measure |
-|------------------------------|--------------|
-| Symmetric data, no outliers  | Mean         |
-| Skewed data or outliers      | Median       |
-| Categorical / most frequent  | Mode         |
+| Scenario                    | Best Measure |
+|----------------------------|--------------|
+| No outliers, symmetric     | Mean         |
+| Outliers or skewed data    | Median       |
+| Categorical or most frequent | Mode       |
 
-> ⚠️ If your dataset is a hot mess, the **median** is the hero you didn’t know you needed.
+---
 
 ## 🌊 Measures of Spread
 
-These tell you **how varied** your data is:
+These describe how **spread out** or **varied** the data is:
 
 - **Range** = Max − Min  
-- **Variance** = Average squared distance from the mean  
-- **Standard Deviation** = Square root of the variance  
-- **Quartiles & IQR**:
-  - Split data into four equal parts
-  - **IQR (Interquartile Range)** = Q3 − Q1  
-  ✅ Great for spotting and ignoring outliers
+- **Variance** = Average of squared deviations from the mean  
+- **Standard Deviation (SD)** = Square root of variance  
+- **Quartiles & IQR (Interquartile Range)**:
+  - Divides data into four equal parts
+  - **IQR = Q3 − Q1** → Helps avoid distortion from outliers
 
-## 📦 Box Plots
-
-Box plots show:
-- Median
-- Quartiles (Q1 and Q3)
-- Potential outliers
-
-Ideal for comparing distributions at a glance.
+---
